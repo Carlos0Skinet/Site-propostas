@@ -37,17 +37,5 @@
         <script src="js/signup.js"></script>
      </div>
     </div>
-
-
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-      new window.VLibras.Widget({
-          rootPah: '/app',
-          personalization: 'https://vlibras.gov.br/config/default_logo.json',
-          opacity: 0.5,
-          position: 'BR',
-          avatar: 'random',
-      });
-    </script>
 </body>
 </html>
