@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background-image: url('img2/4709918.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-container {
+    text-align: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+.img-container img {
+    max-width: 250px; /* Ajusta a largura da imagem para não ultrapassar a largura do contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+    border-radius: 8px; /* Adiciona borda arredondada, ajuste conforme necessário */
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+}
+
+main h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+main p {
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.cta-buttons {
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: #FF914D;
+    border: 2px solid #000;
+    color: rgb(255, 255, 255)7e7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  /* Efeito ao passar o mouse sobre o botão */
+  .btn:hover {
+    background: rgb(255, 255, 255);
+    color: #FF914D;
+  }
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
