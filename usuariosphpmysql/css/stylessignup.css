@@ -1,129 +1,129 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-/* Altera a cor do texto de placeholder para branco */
-input::placeholder {
-  color: #141414;
-}
-
-.flex {
-  display: flex;
-}
-
-.img {
-  flex: 1;
-  padding: 20px;
-}
-
-.img img {
-  width: 500px;
-  height: auto;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-  background-color: rgb(36, 34, 34);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.wrapper {
-  background-color: transparent; /* alterado para transparente */
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  overflow: hidden;
-  width: 400px;
-  height: 450px;
-  padding: 20px;
-  overflow: auto;
-  padding: 60px 40px;
-  backdrop-filter: blur(9px);
-  left: 40px;
-}
-
-h1 {
-  text-align: center;
-  color: #FF914D; /* alterado para branco */
-  margin-bottom: 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-input {
-  margin-bottom: 15px;
-  padding: 11px;
-  border: 1px solid #1f1d1d;
-  border-radius: 15px;
-  font-size: 16px;
-  background-color: white; /* alterado para transparente */
-  color: #181717; /* alterado para branco */
-}
-
-/* Estilo inicial do botão */
-.btn {
-  width: 100%;
-  height: 45px;
-  background: #FF914D;
-  border: 2px solid #000;
-  color: #000;
-  border-radius: 40px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  transition: background 0.3s, color 0.3s;
-}
-
-/* Efeito ao passar o mouse sobre o botão */
-.btn:hover {
-  background: black;
-  color: #FF914D;
-}
-
-#invalid,
-#redirect {
-  margin-top: 10px;
-  text-align: center;
-  font-size: 14px;
-}
-
-#invalid {
-  color: red;
-}
-
-#redirect {
-  color: green;
-}
-
-/* Altera a cor da barra de rolagem */
-::-webkit-scrollbar {
-  width: 12px;
-}
-
-/* Altera o fundo da barra de rolagem */
-::-webkit-scrollbar-track {
-  background-color: rgba(192, 192, 192, 0.199); /* Cinza fraco com pouca opacidade */
-}
-
-/* Altera a cor da alça (thumb) da barra de rolagem */
-::-webkit-scrollbar-thumb {
-  background-color: rgba(128, 128, 128, 0.5); /* Cinza mais escuro com pouca opacidade */
-  border-radius: 10px; /* Borda arredondada */
-}
-
-/* Altera a cor da alça (thumb) quando o mouse está sobre ela */
-::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(128, 128, 128, 0.8); /* Cinza mais escuro com mais opacidade ao passar o mouse */
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* Altera a cor do texto de placeholder para branco */
+  input::placeholder {
+    color: #141414;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .img {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .img img {
+    width: 500px;
+    height: auto;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #81A969;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .wrapper {
+    background-color: white; /* alterado para transparente */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    width: 400px;
+    height: 450px;
+    padding: 20px;
+    overflow: auto;
+    padding: 60px 40px;
+    backdrop-filter: blur(9px);
+    left: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #FF914D; /* alterado para branco */
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    padding: 11px;
+    border: 1px solid #1f1d1d;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: white; /* alterado para transparente */
+    color: #181717; /* alterado para branco */
+  }
+  
+  /* Estilo inicial do botão */
+  .btn {
+    width: 100%;
+    height: 45px;
+    background: #FF914D;
+    color: #000;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  /* Efeito ao passar o mouse sobre o botão */
+  .btn:hover {
+    background: black;
+    color: #FF914D;
+  }
+  
+  #invalid,
+  #redirect {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  #invalid {
+    color: red;
+  }
+  
+  #redirect {
+    color: green;
+  }
+  
+  /* Altera a cor da barra de rolagem */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Altera o fundo da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background-color: rgba(192, 192, 192, 0.199); /* Cinza fraco com pouca opacidade */
+  }
+  
+  /* Altera a cor da alça (thumb) da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.5); /* Cinza mais escuro com pouca opacidade */
+    border-radius: 10px; /* Borda arredondada */
+  }
+  
+  /* Altera a cor da alça (thumb) quando o mouse está sobre ela */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(128, 128, 128, 0.8); /* Cinza mais escuro com mais opacidade ao passar o mouse */
+  }
+  
